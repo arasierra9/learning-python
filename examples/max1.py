@@ -9,4 +9,4 @@ mx = 10
 mi = 1
 
 for x in (1,22,3,42,5,-1,11,9,-10,10):
-	print('limit ({}): {}', x, max(min(x, mx), mi))
+	print('limit ({}): {}'.format(x, max(min(x, mx), mi)))

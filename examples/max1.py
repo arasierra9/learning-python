@@ -8,5 +8,5 @@ print(maximum)
 mx = 10
 mi = 1
 
-for x in (1,22,3,42,5,11,9,):
+for x in (1,22,3,42,5,-1,11,9,-10,10):
 	print(x, max(min(x, mx), mi))

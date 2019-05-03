@@ -22,9 +22,5 @@ def plane_ride_cost(city):
           discount = 0
       return (days * 40) - discount
 
-
-def rental_car_cost(days):
-  if days >= 7:
-    return 50
-  elif days == 3:
-    return 20
+def trip_cost(city,days):
+    return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city)
